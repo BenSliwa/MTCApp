@@ -8,7 +8,7 @@ Qt-based measurement and performance evaluation application for the anticipatory
 ### Setup
 
 - The accessible network quality indicators are vendor-specific. For our evaluations, a Samsung Galaxy S5 Neo (Model SM-G903F) was used.
-- An example configuration file is provided with [pCAT.json](pCAT.json), where the address of the HTTP server has to be added.
+- An example configuration file is provided with [pCAT.json](src/pCAT.json), where the address of the HTTP server has to be added.
 
 ### License
 
