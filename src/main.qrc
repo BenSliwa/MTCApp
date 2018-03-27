@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>images/cni-logo.png</file>
+        <file>data/map.txt</file>
+        <file>data/track1.txt</file>
+        <file>data/track2.txt</file>
+        <file>pCAT.json</file>
+    </qresource>
+</RCC>

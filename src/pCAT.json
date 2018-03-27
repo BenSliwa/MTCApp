@@ -1,0 +1,41 @@
+{
+    "apps": [
+        {
+            "address": "",
+            "metrics": [
+                {
+                    "key": "goodput_prediction",
+                    "max": 15,
+                    "min": 0,
+                    "exponent": 8,
+                    "progressive": 1
+                }
+            ],
+            "name": "pCAT",
+            "port": 5002,
+            "sensorInterval": 1,
+            "sensorPayload": 51200,
+            "tMin": 10,
+            "tMax": 120,
+            "transmissionInterval": 1,
+            "mobilityPrediction":
+            {
+                "type": "trackBased",
+                "horizon": 30,
+                "gamma": 1,
+                "tracks": [
+                    ":/data/track1.txt",
+                    ":/data/track2.txt"
+                ]
+            },
+            "connectivityMap":
+            {
+                "minLat": 51.4371,
+                "maxLat": 51.4909,
+                "minLon": 7.3929,
+                "maxLon": 7.4918,
+                "cellSize": 25
+            }
+        }
+    ]
+}
